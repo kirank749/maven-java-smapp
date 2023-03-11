@@ -37,5 +37,17 @@
 			</plugin>
 		</plugins>
 	</build>
-
+	
+distributionManagement>
+    <repository>
+      <id>nexusinstance</id>
+      <name>release-maven</name>
+      <url>http://65.0.176.211:8081/repository/release-maven/</url>
+    </repository>
+    <snapshotRepository>
+      <id>nexusinstance</id>
+      <name>snapshots-maven</name>
+      <url>http://65.0.176.211:8081/repository/snapshots-maven/</url>
+    </snapshotRepository>
+  </distributionManagement>
 </project>
